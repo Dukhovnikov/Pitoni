@@ -4,3 +4,9 @@ C:\Users\Dukhovnikov\source\repos\ConsoleApp2\ConsoleApp4\bin\Debug\ConsoleApp4.
 C:\Users\Dukhovnikov\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\ConsoleApp4.exe
 C:\Users\Dukhovnikov\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
 C:\Users\Dukhovnikov\source\repos\ConsoleApp2\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+E:\_git\Pitoni\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+E:\_git\Pitoni\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+E:\_git\Pitoni\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+E:\_git\Pitoni\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+E:\_git\Pitoni\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+E:\_git\Pitoni\ConsoleApp4\obj\Debug\ConsoleApp4.pdb

@@ -10,19 +10,36 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            int a;
-            int b;
-            int c;
-            Console.WriteLine("Введите первую сторону");
-            a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите вторую сторону");
-            b = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите третью сторону");
-            c = int.Parse(Console.ReadLine());
-            Triangle z = new Triangle(a,b,c);
-            Console.WriteLine($"Периметр заданного треугольника равен: {z.GetPerimetr()}");
-            Console.Write($"Площадь заданного треугольника равна: {z.GetArea()}");
+            BullsAndCows Game = new BullsAndCows();
+
+            Game.Start();
             Console.ReadKey();
+
         }
+
+
+        private static void Try1()
+        {
+            Console.WriteLine("ВВедите число");
+            string y = Console.ReadLine();
+            int x;
+            x = int.Parse(y);
+            Console.WriteLine(MissMakukhina.FibonacciRec(x));
+        }
+        private static void Try2()
+        {
+            Console.WriteLine("Введите четырехзначное число");
+            int x = int.Parse(Console.ReadLine());
+            bool c = MissMakukhina.ControlDifference(x);
+            if (c)
+            {
+                Console.WriteLine("Ваше число подходит нашей игре");
+            }
+            else
+            {
+                Console.WriteLine("Ваше число не подходит нашей игре");
+            }
+        }
+
     }
 }
