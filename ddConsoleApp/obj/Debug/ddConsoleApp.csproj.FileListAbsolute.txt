@@ -1,0 +1,7 @@
+D:\_git\Pitoni\ddConsoleApp\bin\Debug\ddConsoleApp.exe.config
+D:\_git\Pitoni\ddConsoleApp\bin\Debug\ddConsoleApp.exe
+D:\_git\Pitoni\ddConsoleApp\bin\Debug\ddConsoleApp.pdb
+D:\_git\Pitoni\ddConsoleApp\obj\Debug\ddConsoleApp.csprojAssemblyReference.cache
+D:\_git\Pitoni\ddConsoleApp\obj\Debug\ddConsoleApp.csproj.CoreCompileInputs.cache
+D:\_git\Pitoni\ddConsoleApp\obj\Debug\ddConsoleApp.exe
+D:\_git\Pitoni\ddConsoleApp\obj\Debug\ddConsoleApp.pdb
