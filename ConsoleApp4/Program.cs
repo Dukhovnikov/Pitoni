@@ -10,9 +10,11 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            BullsAndCows Game = new BullsAndCows();
-
-            Game.Start();
+            //BullsAndCows Game = new BullsAndCows();
+            //Game.Start();
+            int i = 0;
+            Console.WriteLine(i++);
+            Console.WriteLine(++i);
             Console.ReadKey();
 
         }

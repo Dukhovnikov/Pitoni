@@ -34,12 +34,34 @@ namespace ConsoleApp4
             {
                 Console.Write($"{n}. ");
                 x = Console.ReadLine();
-
-            }while()
+                Console.WriteLine($"   {Match(int.Parse(x), GoalNumber)}");
+                Console.WriteLine();
+                n = n + 1;
+            } while (int.Parse(x)!=GoalNumber);
+            Console.WriteLine("Бинго!");
         }
-        private string Match(int NumberUser, int NumberComp)
+        public string Match(int NumberUser, int NumberComp)
         {
-            
+            int[] numberuser = Array.ConvertAll(NumberUser.ToString().ToArray(), m => (int)m);
+            int[] numbercomp = Array.ConvertAll(NumberComp.ToString().ToArray(), m => (int)m);
+            int b = 0;
+            int c = 0;
+            for (int i = 0; i < numberuser.Length; i++)
+            {
+                for (int j = 0; j < numberuser.Length; j++)
+                {
+                    if (numberuser[i] == numbercomp[j])
+                    {
+                        c = c + 1;
+                    }
+                }
+                if (numberuser[i] == numbercomp[i])
+                {
+                    b = b + 1;
+                }
+            }
+            c = c - b;
+            return $"{b}B{c}C";
         }
     }
 }

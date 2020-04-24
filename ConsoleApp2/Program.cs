@@ -6,9 +6,56 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
+
+    public class Node
+    {
+        int data;
+        Node next;
+    }
+
+    public static class Write
+    {
+        private static Action<int, int, char> printSymbol = (xp, yp, symbol) => { Console.SetCursorPosition(xp, yp); Console.Write(symbol); };
+        public static void Circle(int centerX, int centerY, int radius = 4)
+        {
+            try
+            {
+                int x = -radius;
+                int y;
+
+                printSymbol(centerX, centerY, '0');
+
+                while (x <= radius)
+                {
+                    y = (int)Math.Floor(Math.Sqrt(radius * radius - x * x));
+                    printSymbol(x + centerX, y + centerY, '*');
+
+                    y = -y;
+                    printSymbol(x + centerX, y + centerY, '*');
+
+                    x++;
+                }
+            }
+            catch (Exception)
+            {
+            }
+
+
+        }
+
+    }
+
     class Program
     {
         static void Main(string[] args)
+        {
+            Write.Circle(1, 1);
+
+
+            Console.ReadLine();
+        }
+
+        static void Main1(string[] args)
         {
             int x;
             int y;
@@ -62,5 +109,6 @@ namespace ConsoleApp2
             Console.ReadKey();
         }
     }
+
 
 }
