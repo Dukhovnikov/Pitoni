@@ -29,10 +29,10 @@ namespace ConsoleApp2
                 while (x <= radius)
                 {
                     y = (int)Math.Floor(Math.Sqrt(radius * radius - x * x));
-                    printSymbol(x + centerX, y + centerY, '*');
+                    printSymbol(x + centerX, y + centerY, '.');
 
                     y = -y;
-                    printSymbol(x + centerX, y + centerY, '*');
+                    printSymbol(x + centerX, y + centerY, '.');
 
                     x++;
                 }
@@ -50,7 +50,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Write.Circle(1, 1);
+            Write.Circle(10, 10);
 
 
             Console.ReadLine();
